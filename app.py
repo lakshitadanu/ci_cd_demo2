@@ -7,5 +7,5 @@ app = Flask(__name__)
 def home():
     return "Hello World!"  # This is what gets shown on your website root URL
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     app.run(debug=True)
